@@ -8,5 +8,3 @@ class queue_restoran:
         self.data.pop(0)
     def peek(self):
         return self.data[0]
-    def size(self):
-        return len(self.data)
